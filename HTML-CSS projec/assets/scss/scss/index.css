@@ -1,0 +1,467 @@
+body {
+  background-color: #f8f9fa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 h2 h3 h4 h5 .header {
+  font-family: "Poppins", sans-serif;
+}
+
+.continer {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue {
+  background-color: #4877fb;
+}
+
+.titulli {
+  text-align: center;
+}
+
+h1 {
+  color: #4877fb;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 12px 30px;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+header .header {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+}
+header .header a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 25px;
+}
+header .header1 ul {
+  display: flex;
+  padding-top: 25px;
+}
+header .header1 ul .submenu {
+  display: none;
+}
+header .header1 li {
+  padding: 0 5px;
+  list-style-type: none;
+  padding-inline-start: 40px;
+}
+header .header1 a {
+  color: #fff;
+}
+
+.intro {
+  display: flex;
+  width: 100%;
+}
+.intro .maint {
+  width: 50%;
+  margin-top: 60px;
+}
+.intro .maint h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.intro .maint p {
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 30px;
+}
+.intro .maint .btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  border-color: transparent;
+}
+.intro .maint .btn:hover {
+  color: #4877fb;
+  background-color: #fff;
+}
+.intro .maint a {
+  display: block;
+  padding: 20px;
+  margin-right: 68%;
+}
+.intro .mainv {
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.continers {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4px;
+  margin-top: 100px;
+  height: 300px;
+}
+.continers .card {
+  border: 1px solid black;
+  padding: 30px;
+  background-color: #fff;
+  border-color: transparent;
+}
+.continers .card:hover {
+  margin-bottom: 7px;
+  margin-top: -7px;
+  border-top: 3px solid blue;
+  transition: 0.5s;
+}
+.continers .card #ikonat {
+  font-size: 45px;
+  margin-bottom: 10px;
+  display: block;
+  color: #4877fb;
+}
+.continers .card h5 {
+  font-size: 1.25rem;
+  padding: 7px 0;
+}
+.continers .card a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ccc;
+  color: #fff;
+  padding: 13px;
+  padding-top: 10px;
+}
+.continers .card a:hover {
+  color: #fff;
+  background-color: #4877fb;
+}
+.continers .card a #subbmit {
+  margin-top: 30px;
+}
+
+.continer .titulli {
+  margin: 50px 0;
+}
+
+section .continer {
+  display: flex;
+  justify-content: space-around;
+}
+section .continer .shkrim {
+  padding: 40px;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+section .continer .shkrim .number {
+  width: 40px;
+  height: 40px;
+  background-color: #24b800;
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  padding: 13px;
+}
+section .continer .shkrim .number span {
+  font-weight: bold;
+}
+section .continer .shkrim h3 {
+  color: #24b800;
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+section .continer .shkrim p {
+  margin-bottom: 45px;
+}
+section .continer .shkrim .btn {
+  background-color: rgba(36, 184, 0, 0.2);
+  color: #24b800;
+  border-color: transparent;
+}
+section .continer .shkrim .btn:hover {
+  background-color: #1d9300;
+  color: #fff;
+}
+
+.grey {
+  background-color: #efefef;
+}
+
+.continer .titulli {
+  margin: 70px 0;
+}
+
+.kartat {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.kartat .cards {
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 30px;
+  border-color: transparent;
+}
+.kartat .cards div {
+  display: flex;
+  padding: 10px;
+  padding-top: 20px;
+}
+.kartat .cards div .text {
+  display: block;
+  margin-top: 20px;
+}
+.kartat .cards .personat {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  color: #1d9300;
+  font-size: 40px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.dots .active {
+  color: rgb(143, 168, 143);
+}
+
+.continer .kart {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.continer .kartat {
+  background-color: #fff;
+  height: 500px;
+  padding: 30px;
+  margin-bottom: 20px;
+  display: block;
+}
+.continer .kartat h3 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #6c757d;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.continer .kartat .price {
+  text-align: center;
+  padding: 30px 20px;
+}
+.continer .kartat .price p {
+  font-size: 20px;
+  color: #6c757d;
+}
+.continer .kartat .price p span {
+  color: #4877fb;
+  font-size: 40px;
+  font-weight: bold;
+}
+.continer .kartat .price p .green {
+  color: #24b800;
+}
+.continer .kartat p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.continer .kartat .tekst {
+  padding: 30px 20px;
+  display: block;
+  color: #6c757d;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.continer .kartat .tekst i {
+  color: #24b800;
+  padding-right: 5px;
+}
+.continer .kartat .btn {
+  margin: 80px;
+  background-color: rgba(72, 119, 251, 0.2);
+  border-color: transparent;
+  color: #4877fb;
+  font-weight: 700;
+}
+.continer .kartat .btn:hover {
+  color: #fff;
+  background-color: #4877fb;
+}
+.continer .kartat #green {
+  background-color: rgba(36, 184, 0, 0.2);
+  color: #24b800;
+}
+.continer .kartat #green:hover {
+  color: #fff;
+  background-color: #24b800;
+}
+
+.blue2 {
+  background-color: #4877fb;
+  height: 150px;
+  padding: 37px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.blue2 h2 {
+  color: #fff;
+}
+.blue2 p {
+  color: rgba(208, 200, 200, 0.5);
+  font-weight: 700;
+}
+.blue2 .butoni {
+  padding: 37px 0;
+}
+.blue2 .butoni .btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-color: transparent;
+  font-weight: 700;
+}
+.blue2 .butoni .btn:hover {
+  background-color: #fff;
+  color: #4877fb;
+}
+
+h2.titujt {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  padding: 30px 0;
+}
+
+.media span i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #777;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.fa-brands {
+  padding: 8px;
+}
+
+p {
+  margin: 10px 0;
+}
+p a {
+  color: #6c757d;
+}
+
+@media screen and (max-width: 768px) {
+  .continer {
+    width: 90%;
+  }
+  .header1 {
+    display: none;
+  }
+  .continer {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .intro {
+    flex-direction: column;
+  }
+  .intro .maint a {
+    margin-right: 0;
+    padding: 12px 16px;
+  }
+  .intro .mainv {
+    padding: 60px 0;
+  }
+  .intro img {
+    width: 360px;
+  }
+  .continers {
+    flex-direction: column;
+    margin-top: 500px;
+  }
+  #gabim {
+    margin-top: 500px;
+  }
+  .continer .foto img {
+    width: 360px;
+  }
+  #fshi {
+    display: none;
+  }
+  .kart {
+    flex-direction: column;
+  }
+  .kartat {
+    width: 360px;
+  }
+  .kartat .btn {
+    padding: 10px 10px;
+  }
+  .blue2 {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .continer {
+    width: 1320px;
+  }
+  .header1 {
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+  }
+  .continer {
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .intro {
+    flex-direction: row;
+  }
+  .intro .maint a {
+    padding: 12px 21px;
+  }
+  .intro .mainv {
+    padding: 50px 100px;
+  }
+  .intro img {
+    width: 540px;
+  }
+  .foto img {
+    width: 600px;
+  }
+  .kart {
+    flex-direction: row;
+  }
+  .kartat .btn {
+    padding: 12px 30px;
+  }
+}
+p {
+  color: #6c757d;
+}/*# sourceMappingURL=index.css.map */
